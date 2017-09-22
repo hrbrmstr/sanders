@@ -5,6 +5,7 @@
 #' @return `data.frame` (tibble)
 #' @export
 #' @references [RFC 7231](https://tools.ietf.org/html/rfc7231#section-3.1.1.1)
+#' @examples
 #' content_type <- c("text/html; charset=utf-8", "text/css",
 #'                   "text/javascript; charset=UTF-8", "text/javascript",
 #'                   "application/x-javascript", "text/plain; charset=utf-8")

@@ -15,10 +15,12 @@ normalize_media_types(media_types)
 \description{
 Sand the rough edges off of bare, scraped media (MIME) types into a smooth data frame
 }
+\examples{
+content_type <- c("text/html; charset=utf-8", "text/css",
+                  "text/javascript; charset=UTF-8", "text/javascript",
+                  "application/x-javascript", "text/plain; charset=utf-8")
+normalize_media_types(content_type)
+}
 \references{
 \href{https://tools.ietf.org/html/rfc7231#section-3.1.1.1}{RFC 7231}
-content_type <- c("text/html; charset=utf-8", "text/css",
-"text/javascript; charset=UTF-8", "text/javascript",
-"application/x-javascript", "text/plain; charset=utf-8")
-normalize_media_types(content_type)
 }
